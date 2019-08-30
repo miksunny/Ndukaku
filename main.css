@@ -1,0 +1,26 @@
+
+header {
+    font-size: 15px;
+    background-color: skyblue
+}
+
+head {
+    text-align: center;
+    padding-left: 300px; 
+    padding-right: 300px;
+}
+
+body {
+    border: 40px;
+    padding-left: 100px; 
+    padding-right: 100px;
+    margin: 0px;    
+}
+
+.head {
+    text-align: center;
+}
+
+img {
+    padding-left: 45%;
+}*/
