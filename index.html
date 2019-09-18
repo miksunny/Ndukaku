@@ -119,23 +119,13 @@
             <tr>
                 <td>Date of Birth: </td>
                 <td>18 March, 1988</td>
+         
             </tr>
             <tr>
-                <td>HOME ADDRESS: </td>
-                <td>Umulu, Obikabia</td>
-            </tr>
-            <tr>
-                <td>L.G.A </td>
-                <td>Isisala Ngwa North</td>
-            </tr>
-            <tr>
-                <td>STATE OF ORIGEN: </td>
+                <td>STATE OF ORIGIN: </td>
                 <td> Abia</td>
             </tr>
-            <tr>
-                <td>NATIONALITY: </td>
-                <td>Nigerian</td>
-            </tr>
+           
             <tr>
                 <td>RELIGION: </td>
                 <td>Christianity</td>
@@ -175,6 +165,13 @@
         <button type="submit" >Submit</button>
     </form>
     </div>
+    if (isset($_POST['submit'])) {
+    $name = $_POST['username'];
+    $year = $_POST['birthyear'];
+    $currentyear = 2019;
+    $age = $currentyear - $year;
+    echo "<pre>Welcome " .$name. ", you are " .$age. " years old :)</pre>";
+}
 </body>
 
 </html>
